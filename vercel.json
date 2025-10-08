@@ -1,0 +1,7 @@
+// PATH: vercel.json
+{
+  "functions": {
+    "app/api/token/route.ts": { "runtime": "nodejs20.x" }
+  },
+  "installCommand": "pnpm install --no-frozen-lockfile"
+}
